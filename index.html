@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PEDIDOSYA / pedidos de comida rápida</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>PEDIDOSYA - Hacé tu pedido de comida!</h1>
+    <div id="foodOptions"></div>
+    <div>
+        <label for="foodChoice">Elige tu comida:</label>
+        <select id="foodChoice"></select>
+        <label for="quantity">Cantidad:</label>
+        <input type="number" id="quantity" min="1" value="1">
+        <button id="addFood">Añadir al Pedido</button>
+    </div>
+    <hr>
+    <button id="realizarPedido">Realizar Pedido</button>
+    <hr>
+    <div id="resumenPedido"></div>
+    <hr>
+    <div id="notificaciones"></div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
